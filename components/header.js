@@ -16,11 +16,16 @@ function Header() {
         </li>
         <li>
           <a href="#two" className="link link-theme link-arrow">
-            What We Do
+            Our Mission
           </a>
         </li>
         <li>
           <a href="#three" className="link link-theme link-arrow">
+            Adopt
+          </a>
+        </li>
+        <li>
+          <a href="#four" className="link link-theme link-arrow">
             Get Involved
           </a>
         </li>
