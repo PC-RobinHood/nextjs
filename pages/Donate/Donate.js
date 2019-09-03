@@ -1,5 +1,5 @@
-import withLayout from '../components/MyLayout';
+import withLayout from '../../assets/MyLayout';
 
-const Page = () => <p>Donate button</p>;
+const Donate = () => <p>Donate button</p>;
 
-export default withLayout(Page);
+export default withLayout(Donate);

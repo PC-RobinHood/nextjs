@@ -1,5 +1,5 @@
-import withLayout from '../components/MyLayout';
+import withLayout from '../../assets/MyLayout';
 
-const Page = () => <p>Contact information</p>;
+const Contact = () => <p>Contact information</p>;
 
-export default withLayout(Page);
+export default withLayout(Contact);

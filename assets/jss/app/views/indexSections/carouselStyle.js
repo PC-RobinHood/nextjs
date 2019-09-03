@@ -1,4 +1,4 @@
-import { container } from "assets/jss/mainStyles.js";
+import { container } from "../../../../jss/mainStyles";
 
 const carouselStyle = {
   section: {

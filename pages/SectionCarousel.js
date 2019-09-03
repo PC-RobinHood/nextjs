@@ -3,15 +3,15 @@ import PropTypes from "prop-types";
 import Carousel from "react-slick";
 import withStyles from "@material-ui/core/styles/withStyles";
 import LocationOn from "@material-ui/icons/LocationOn";
-import GridContainer from "components/Grid/GridContainer.jsx";
-import GridItem from "components/Grid/GridItem.jsx";
-import Card from "components/Card/Card.jsx";
-import carouselStyle from "assets/jss/app/views/componentsSections/carouselStyle.jsx";
-import image1 from "assets/img/bg.jpg";
-import image2 from "assets/img/bg2.jpg";
-import image3 from "assets/img/bg3.jpg";
+import GridContainer from "../components/Grid/GridContainer";
+import GridItem from "../components/Grid/GridItem";
+import Card from "../components/Card/Card";
+import carouselStyle from "../assets/jss/app/views/indexSections/carouselStyle.js";
+// import image1 from "../assets/img/Asian_Dress_Bokeh_Glance_Brown_haired_Model_568492_600x400.png";
+// import image2 from "../assets/img/Asian_Pose_Bokeh_Glance_Hands_Brunette_girl_568501_600x400.png";
+// import image3 from "../assets/img/Asian_Swing_Dress_Wreath_Bokeh_Cute_Sitting_Legs_568488_600x400.png";
 
-class Carousel1 extends React.Component {
+class SectionCarousel extends React.Component {
   render() {
     const { classes } = this.props;
     const settings = {
@@ -31,7 +31,7 @@ class Carousel1 extends React.Component {
                 <Carousel {...settings}>
                   <div>
                     <img
-                      src={image1}
+                      src="../assets/img/Asian_Dress_Bokeh_Glance_Brown_haired_Model_568492_600x400.png"
                       alt="First slide"
                       className="slick-image"
                     />
@@ -44,7 +44,7 @@ class Carousel1 extends React.Component {
                   </div>
                   <div>
                     <img
-                      src={image2}
+                      src="../assets/img/Asian_Pose_Bokeh_Glance_Hands_Brunette_girl_568501_600x400.png"
                       alt="Second slide"
                       className="slick-image"
                     />
@@ -57,7 +57,7 @@ class Carousel1 extends React.Component {
                   </div>
                   <div>
                     <img
-                      src={image3}
+                      src="../assets/img/Asian_Swing_Dress_Wreath_Bokeh_Cute_Sitting_Legs_568488_600x400.png"
                       alt="Third slide"
                       className="slick-image"
                     />
@@ -82,4 +82,4 @@ SectionCarousel.propTypes = {
   classes: PropTypes.object
 };
 
-export default withStyles(carouselStyle)(Carousel1);
+export default withStyles(carouselStyle)(SectionCarousel);

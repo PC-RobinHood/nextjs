@@ -1,6 +1,8 @@
-import withLayout from '../components/MyLayout';
-import Carousel from '../components/carousel';
+import withLayout from '../assets/MyLayout';
+import SectionCarousel from './SectionCarousel';
 
-const Page = () => <Carousel/>;
+const Page = () => {
+<SectionCarousel/>
+}
 
 export default withLayout(Page);

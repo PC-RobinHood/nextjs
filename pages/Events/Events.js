@@ -1,5 +1,5 @@
-import withLayout from '../components/MyLayout';
+import withLayout from '../../assets/MyLayout';
 
-const Page = () => <p>An event list. Cards and calendar event structure</p>;
+const Events = () => <p>An event list. Cards and calendar event structure</p>;
 
-export default withLayout(Page);
+export default withLayout(Events);

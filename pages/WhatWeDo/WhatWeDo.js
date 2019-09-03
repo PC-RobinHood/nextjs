@@ -1,5 +1,5 @@
-import withLayout from '../components/MyLayout';
+import withLayout from '../../assets/MyLayout';
 
-const Page = () => <p>how we effect the community and what our goals/plans are for action</p>;
+const What = () => <p>how we effect the community and what our goals/plans are for action</p>;
 
-export default withLayout(Page);
+export default withLayout(What);
